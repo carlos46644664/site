@@ -1,56 +1,100 @@
+
 * {
   margin: 0;
   padding: 0;
 }
-body{
-  background-color: #66eee3;
-}
-img{
-  height: 180px;
+a {
+  color: #fff;
+  text-decoration: none;
 
 }
-.g {
-  display: flex;
 
-align-items: center;
-
-justify-content: center;
-}
-.logo{
+.logo {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
-}
-a{
-  color:rgb(0, 0, 0);
-  text-decoration: none;
+  text-align: center;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(WhatsApp\ Image\ 2023-08-09\ at\ 15.11.18.jpeg);
-height: 18vh;
-}
-.myButton {
-	background-color:#44c767;
-	border-radius:28px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-}
-.myButton:hover {
-	background-color:#5cbf2a;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #00c8ff;
+  height: 12vh;
+  font-size: 18px; 
+  margin: bottom 15px;
 }
 
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+img {
+  width:225px;
+  height:180px;
+}
+
+.g {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton {
+  background:linear-gradient(to bottom, #0066ff 5%, #00c8ff 100%);
+  background-color:#ff0000;
+  border-radius:28px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:8px 9px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #0026ff;
+ 
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #00c8ff 5%, #004cff 100%);
+  background-color:#00b7fa;
+}
+.botaott {
+  position:relative;
+  top:1px;
+}
+.trak{
+  text-align: center
+}
+.tutu{
+ border: solid;
+ border-color: #00FF7F;
+  background-color: #00FF7F;
+  color: #ffffff;
+ inline-size: 100px;
+ height: 50vh;
+ right: 50vh;
+}
+.tak{
+  text-overflow: ellipsis;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #00c8ff;
+  height: 12vh;
+  font-size: 18px; 
+  margin:20px;
+  color: #fff;
+}
