@@ -98,3 +98,48 @@ footer{
   margin:20px;
   color: #fff;
 }
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coluna1, .coluna2, .coluna3, .coluna4 {
+    flex: 1;
+    padding: 0 10px;
+    max-width: 200px;
+    text-align: left;
+}
+
+.coluna1 span, .coluna2 span, .coluna3 span, .coluna4 span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rodape p {
+    margin: 15px 0;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: #47b64c;
+}
