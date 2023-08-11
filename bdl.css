@@ -14,17 +14,18 @@ a {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
+  
 }
 
 header {
+ 
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #00c8ff;
+  background: #401e67;
   height: 12vh;
   font-size: 18px; 
-  margin: bottom 15px;
 }
 
 .nav-list {
@@ -40,19 +41,21 @@ header {
 img {
   width:225px;
   height:180px;
+  
 }
 
 .g {
   display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .myButton {
-  background:linear-gradient(to bottom, #0066ff 5%, #00c8ff 100%);
+  background:linear-gradient(to bottom, #401e67 5%, #4519b2 100%);
   background-color:#ff0000;
   border-radius:28px;
-  border:1px solid #ffffff;
+  border:1px solid #0066ff;
   display:inline-block;
   cursor:pointer;
   color:#ffffff;
@@ -64,7 +67,7 @@ img {
  
 }
 .myButton:hover {
-  background:linear-gradient(to bottom, #00c8ff 5%, #004cff 100%);
+  background:linear-gradient(to bottom, #ff00dd 5%, #004cff 100%);
   background-color:#00b7fa;
 }
 .botaott {
@@ -130,9 +133,7 @@ body, h1, h2, h3, p {
     margin-bottom: 10px;
 }
 
-.rodape p {
-    margin: 15px 0;
-}
+
 
 .rodape a {
     color: white;
@@ -141,5 +142,5 @@ body, h1, h2, h3, p {
 }
 
 .rodape a:hover {
-    color: #47b64c;
+    color: #513d83;
 }
