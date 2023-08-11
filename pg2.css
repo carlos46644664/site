@@ -20,7 +20,7 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #00c8ff;
+    background: #401e67;
     height: 12vh;
     font-size: 18px; 
     margin:0;
@@ -55,17 +55,9 @@ tfoot {
   background-color: #00c8ff;
   color: #fff;
 }
- 
-.juju{
-    top: 10%;
-    left: 55%;
-    width:=250px;
-     height: 190px;
-     overflow: hidden; 
-     
-    }
+
     .myButton {
-        background:linear-gradient(to bottom, #00c8ff 5%, #00c8ff 100%);
+        background:linear-gradient(to bottom, #401e67 5%, #00c8ff 100%);
         background-color:#ff0000;
         border-radius:28px;
         border:1px solid #000000;
@@ -80,7 +72,7 @@ tfoot {
        
       }
       .myButton:hover {
-        background:linear-gradient(to bottom, #00c8ff 5%, #004cff 100%);
+        background:linear-gradient(to bottom, #00c8ff 5%, #401e67 100%);
         background-color:#00b7fa;
       }
       .botaott {
@@ -92,4 +84,25 @@ tfoot {
       }
       .ind{
        text-align: right;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+      }
+      
+      .ticket {
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      h2 {
+        color: #333;
+      }
+      
+      p {
+        color: #777;
       }
