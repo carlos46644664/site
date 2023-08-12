@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fgd.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="cadastro-container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="contato">Contato</label>
+            <input type="tel" id="contato" name="contato" placeholder="Digite seu contato" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="xxxxx@gmail.com" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <label for="idade">Data de Nascimento</label>
+            <input type="date" id="idade" name="idade" required>
+
+            <label>Cidade
+                <br>
+                <select id="cidade" name="cidade" style="padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;">
+                    <option value=" ">             </option>
+                    <option value="ms">Monte Santo</option>
+                    <option value="eu">Euclides</option>
+                    <option value="qu">Quijingue</option>
+                </select>
+            </label>
+
+            <label for="Sexo">Sexo</label>
+            <label class="radio-label">
+            <input type="radio" name="genero" value="feminino">Feminino</label>
+            <label class="radio-label">
+            <input type="radio" name="genero" value="masculino">Masculino</label>
+
+            <label>Digite uma mensagem</label>
+            <input type="textarea">
+            
+            <input id="botao" type='button' value='Login' onclick='history.go(-1)' style="background:linear-gradient(to bottom, #3b2775 5%, #7e5ec9 100%);
+            background-color:#2a1a58;
+            border-radius:28px;
+            border:1px solid #10032e;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:17px;
+            padding:8px 9px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #263b7e;" />
+        </form>
+    </div>
+</body>
+</html>
