@@ -1,146 +1,129 @@
 
 * {
-  margin: 0;
-  padding: 0;
-}
-a {
-  color: #fff;
-  text-decoration: none;
-
-}
-
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-align: center;
-  
-}
-
-header {
- 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #401e67;
-  height: 12vh;
-  font-size: 18px; 
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-
-img {
-  width:225px;
-  height:180px;
-  
-}
-
-.g {
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.myButton {
-  background:linear-gradient(to bottom, #401e67 5%, #4519b2 100%);
-  background-color:#ff0000;
-  border-radius:28px;
-  border:1px solid #0066ff;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:17px;
-  padding:8px 9px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #0026ff;
- 
-}
-.myButton:hover {
-  background:linear-gradient(to bottom, #ff00dd 5%, #004cff 100%);
-  background-color:#00b7fa;
-}
-.botaott {
-  position:relative;
-  top:1px;
-}
-.trak{
-  text-align: center
-}
-.tutu{
- border: solid;
- border-color: #00FF7F;
-  background-color: #00FF7F;
-  color: #ffffff;
- inline-size: 100px;
- height: 50vh;
- right: 50vh;
-}
-.tak{
-  text-overflow: ellipsis;
-}
-
-footer{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #00c8ff;
-  height: 12vh;
-  font-size: 18px; 
-  margin:20px;
-  color: #fff;
-}
-
-body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-}
-
-.rodape {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     text-align: center;
-}
-
-.rodape-div {
+  }
+  
+  header {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-}
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #522280;
+    height: 12vh;
+    font-size: 18px; 
+    margin: bottom 15px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  img {
+    width: 300px;
+    height:200px;
+  }
+  
+  .g {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .myButton {
+    background:linear-gradient(to bottom, #3b2775 5%, #7e5ec9 100%);
+    background-color:#2a1a58;
+    border-radius:28px;
+    border:1px solid #10032e;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:8px 9px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263b7e;
+   
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #4a1a80 5%,#282372 100%);
+    background-color:#362885;
+  }
+  .botaott {
+    position:relative;
+    top:1px;
+  }
+  .trak{
+    text-align: center
+  }
+  .tutu{
+   border: solid;
+   border-color: #541bbe;
+    background-color: #5024ec;
+    color: #ffffff;
+   inline-size: 100px;
+   height: 50vh;
+   right: 50vh;
+  }
+  .tak{
+    text-overflow: ellipsis;
+  }
 
-.coluna1, .coluna2, .coluna3, .coluna4 {
-    flex: 1;
-    padding: 0 10px;
-    max-width: 200px;
-    text-align: left;
-}
-
-.coluna1 span, .coluna2 span, .coluna3 span, .coluna4 span {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-
-
-.rodape a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.rodape a:hover {
-    color: #513d83;
-}
+  
+  .rodape {
+      background-color:#522280;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .rodape-div {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  
+  .coluna1, .coluna2, .coluna3, .coluna4 {
+      flex: 1;
+      padding: 0 10px;
+      max-width: 200px;
+      text-align: left;
+  }
+  
+  .coluna1 span, .coluna2 span, .coluna3 span, .coluna4 span {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  
+  .rodape p {
+      margin: 10px 0;
+  }
+  
+  .rodape a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  }
+  
+  .rodape a:hover {
+      color: #8952bd;
+  }
