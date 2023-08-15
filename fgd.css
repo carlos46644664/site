@@ -1,0 +1,67 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos do container do formulário */
+.cadastro-container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.cadastro-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Estilos do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background:linear-gradient(to bottom, #3b2775 5%, #7e5ec9 100%);
+  background-color:#2a1a58;
+  border-radius:28px;
+  border:1px solid #10032e;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:8px 9px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263b7e;
+}
+
+button:hover {
+  background:linear-gradient(to bottom, #4a1a80 5%,#282372 100%);
+  background-color:#362885;
+}
